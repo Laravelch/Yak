@@ -13,6 +13,7 @@ class PhoneCode extends Controller
     public function sendCode()
     {
         //随机验证码
+
         $str = "1234567890";
         $_len = strlen($str) - 1;
         for($i = 0;$i<6; $i++){
